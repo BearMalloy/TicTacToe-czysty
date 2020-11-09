@@ -66,8 +66,8 @@
         transition: 0.3s;
         margin-top:6%;
         @include mq(smartphone) {width: 50%; margin-top: 30%}
-        @media (orientation: portrait) {margin-top:15%;}
         @media (orientation: portrait) and (min-width:280px) {margin-top: 7%;}
+        @media (orientation: portrait)and (min-width:360px) {margin-top:15%;}
        }
     }
 }
