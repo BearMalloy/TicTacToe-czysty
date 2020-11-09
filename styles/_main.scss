@@ -17,6 +17,8 @@
         width:40%;
         @media (orientation: portrait) {width: 100%; text-align: center; margin-top: 10%; height: 30%}
         @media (orientation: portrait) and (min-width:540px) {height: 20%; width: 40vh; margin-top: 10%;}
+        @media (orientation: portrait) and (min-width:280px) {height: 15%; width: 30vh;}
+
         .form__message {
             display:block;
             font-family: $main-font;
@@ -62,6 +64,7 @@
             color:white;
             margin:0 15%;
             @media (orientation: portrait) { margin: 0 auto; }
+            @media (orientation: portrait) and (min-width:540px) {margin-top: 0;}
             text-align: center;
             padding: 3% 8%;
             width: 35%;
